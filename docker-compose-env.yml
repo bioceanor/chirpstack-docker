@@ -24,7 +24,6 @@ services:
       - NETWORK_SERVER__GATEWAY__BACKEND__MQTT__USERNAME=$MQTT_USERNAME
       - NETWORK_SERVER__GATEWAY__BACKEND__MQTT__PASSWORD=$MQTT_PASSWORD
       - JOIN_SERVER__DEFAULT__SERVER=http://chirpstack-application-server:8003
-      - APPL
     depends_on:
       - postgresql
 
